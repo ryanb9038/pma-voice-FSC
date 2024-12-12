@@ -53,12 +53,12 @@ if GetConvar('voice_useNativeAudio', 'false') == 'true' then
 	}
 else
 	Cfg.voiceModes = {
-		{ 99999999999999.0,  "Infinite" }, -- Infinite speech distance in gta distance units
-		{ 10.0,  "10 Meters" }, -- 10 speech distance in gta distance units
-		{ 50.0,  "50 Meters" },  -- 50 speech distance in gta distance units
-		{ 100.0, "100 Meters" } -- 100 speech distance in gta distance units
-		{ 250.0, "250 Meters" } -- 250 speech distance in gta distance units
-		{ 0.0,  "Mute" }, -- Mute speech distance in gta distance units
+		{ 99999999999999.0,  "[Push F11 To Change] ~g~Infinite" }, -- Infinite speech distance in gta distance units
+		{ 10.0,  "[Push F11 To Change] 10 Meters" }, -- 10 speech distance in gta distance units
+		{ 50.0,  "[Push F11 To Change] 50 Meters" },  -- 50 speech distance in gta distance units
+		{ 100.0, "[Push F11 To Change] 100 Meters" } -- 100 speech distance in gta distance units
+		{ 250.0, "[Push F11 To Change] 250 Meters" } -- 250 speech distance in gta distance units
+		{ 0.0000001,  "[F11] ~r~Mute" }, -- Mute speech distance in gta distance units
 	}
 end
 
