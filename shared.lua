@@ -49,15 +49,15 @@ if GetConvar('voice_useNativeAudio', 'false') == 'true' then
 	Cfg.voiceModes = {
 		{ 1.5, "Whisper" }, -- Whisper speech distance in gta distance units
 		{ 3.0, "Normal" },  -- Normal speech distance in gta distance units
-		{ 6.0, "Shouting" } -- Shout speech distance in gta distance units
+		{ 6.0, "Shouting" }, -- Shout speech distance in gta distance units
 	}
 else
 	Cfg.voiceModes = {
 		{ 99999999999999.0,  "[Push F11 To Change] ~g~Infinite" }, -- Infinite speech distance in gta distance units
 		{ 10.0,  "[Push F11 To Change] 10 Meters" }, -- 10 speech distance in gta distance units
 		{ 50.0,  "[Push F11 To Change] 50 Meters" },  -- 50 speech distance in gta distance units
-		{ 100.0, "[Push F11 To Change] 100 Meters" } -- 100 speech distance in gta distance units
-		{ 250.0, "[Push F11 To Change] 250 Meters" } -- 250 speech distance in gta distance units
+		{ 100.0, "[Push F11 To Change] 100 Meters" }, -- 100 speech distance in gta distance units
+		{ 250.0, "[Push F11 To Change] 250 Meters" }, -- 250 speech distance in gta distance units
 		{ 0.0000001,  "[F11] ~r~Mute" }, -- Mute speech distance in gta distance units
 	}
 end
